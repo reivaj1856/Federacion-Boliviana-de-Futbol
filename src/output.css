@@ -1,16 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.titulo {
-    font-size: x-large;
-}
 
 .fondo {
     background-color: #44d85c;
-    padding-top:0%;
 }
 
 .imgmediana {
@@ -32,15 +22,3 @@
     padding-left: 4rem;
     padding-right: 4rem;
 }
-.izquierda{
-    position:absolute;
-    top: 0px;
-    left : 0px;
-    z-index: 1;
-  }
-  .derecha{
-    position:absolute;
-    top:3%;
-    left :80%;
-    z-index: 1;
-  }
