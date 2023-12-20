@@ -11,7 +11,7 @@
 </head>
 <!---bg-success bg-gradient" style="--bs-bg-opacity: 0.9;---->
 
-<body style="background-color: #37ff62;">
+<body style="background-color: #248539;">
     <script src="/js/bootstrap.bundle.min.js"> </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -19,16 +19,16 @@
         <nav>
             <div class="row align-items-center bg-light">
                 <div class="img-fluid" style="background-image: url('/Images/fondol.jpg');">
-                    <a href="" class="text-decoration-none">
+                    <a href="https://www.fifa.com/fifaplus/es" class="text-decoration-none">
                         <span class="h1 text-uppercase text-success bg-dark px-2">FIFA</span>
-                        <span class="h1 text-uppercase text-dark bg-success px-2 ml-n1">COMEBOL</span>
+                        <span class="h1 text-uppercase text-dark px-2 ml-n1 rounded" style="background-color:#55eb76 ;">COMEBOL</span>
                     </a>
                 </div>
             </div>
             <div class="container-fluid bg-dark mb-30">
                 <div class="row px-xl-5">
                     <div class="col-lg-3 d-none d-lg-block">
-                        <a class="btn d-flex align-items-center justify-content-between bg-white w-100 h-100"
+                        <a class="btn d-flex align-items-center justify-content-between w-100 h-100" style="background-color:#55eb76 ;"
                             href="#navbar-vertical" style="height: 65px; padding: 0 30px;">
                             <h6 class="text-dark m-0">Partidos</h6>
                             <i class="fa fa-angle-down text-dark"></i>
@@ -42,11 +42,11 @@
                             </button>
                             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                 <div class="navbar-nav mr-auto py-0">
-                                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                                    <a href="shop.html" class="nav-item nav-link">liga Profesional</a>
+                                    <a href="/src/" class="nav-item nav-link active">Inicio</a>
+                                    <a href="/src/ligaProfesional/" class="nav-item nav-link text-white">liga Profesional</a>
                                     <div class="nav-item dropdown">
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">
                                                 Division
                                             </a>
@@ -63,53 +63,106 @@
                 </div>
             </div>
         </nav>
-        <div class="container-fluid mb-3 py-4">
+        <div class="py-4 px-xl-5">
+            <a class="btn btn-dark" href="/src/ligaProfesional/clubes/" role="button">Clubes de liga</a>
+            <a class="btn btn-dark" href="/src/ligaProfesional/VS/" role="button">Todos Contra Todos</a>
+            <a class="btn btn-dark" href="/src/ligaProfesional/CopaTigo/" role="button">Copa Tigo Series</a>
+        </div>
+        <div class="container-fluid py-0">
             <div class="row px-xl-5">
-                <div class="col-lg-8">
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active " style="height: 700px;">
-                                <img src="/Images/carusel2.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item" style="height: 700px;">
-                                <img src="/Images/carusel4.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item" style="height: 700px;">
-                                <img src="/Images/carusel3.jpeg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-
+                <div class="col-12">
+                    <nav class="breadcrumb rounded mb-30" style="padding-left: 1rem; background-color:#55eb76 ">
+                        <a class="breadcrumb-item text-dark" href="/src/">Inicio</a>
+                        <span class="breadcrumb-item active text-dark">Liga Profesional</span>
+                    </nav>
                 </div>
-                <div class="col-lg-4">
-                    <div class="product-offer mb-30" style="height: 250px;">
-                        <img class="img-fluid" src="/Images/noticia1.png" alt="">
-                        <div class="offer-text">
-                            <h6 class="text-black text-uppercase">SE INAUGURÓ EL PRIMER CAMPEONATO DE FÚTBOL SUB-18 INTERDISTRITOS DE LA CIUDAD DE EL ALTO.</h6>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid mb-3 py-0">
+        <div class="row px-xl-5">
+            <div class="col-lg-8">
+                <div style="height: 700px;">
+                    <img src="/Images/img1.jpeg" class="d-block w-100" alt="...">
+                    <p class="text-white py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quo laborum provident eos tenetur impedit hic consequuntur, porro temporibus esse quidem eligendi nisi ex, inventore nam nemo rerum vero dolorum autem illum sunt aut numquam. Quidem id ullam expedita quibusdam voluptatibus dolorum provident autem, accusamus porro sint. Deleniti, molestiae atque nihil nisi tempore natus doloribus, possimus quibusdam deserunt neque nemo quam, fuga itaque. Nostrum laborum doloremque ut exercitationem? Nam ipsa earum deserunt?</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-offer mb-30" style="height: 800px;">
+                    <img class="img-fluid" src="/Images/img2.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 py-0   ">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3 rounded">
+                                <h3 class="m-0">Noticias</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="product-offer mb-30" style="height: 250px; padding-top: 7rem;">
-                        <img class="img-fluid" src="/Images/noticia2.jpeg" alt="">
-                        <div class="offer-text">
-                            <h6 class="text-black text-uppercase">LOS TRONCOS LA VUELVEN A CAGAR, PERO ALMENOS EMPATARON VIVA BOLIVIA</h6>
+                        <div class="col-lg-4">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="/Images/noticia3.jpeg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-white rounded" >
+                                    <p class="h6">FERNANDO COSTA: “HAY QUE CREER EN ESTA SELECCIÓN, HAY QUE CREER EN BOLIVIA</p>
+                                    <p class="m-0">Con bastante optimismo y la ilusión de conseguir buenos resultados, esta tarde, el presidente de la Federación Boliviana de Fútbol, Ing. íngel Fernando Costa Sarmiento, partió junto con  la selección boliviana de fútbol rumbo a Lima donde, el próximo jueves 11 de noviembre, La Verde disputará su partido por la Fecha 13 de las Eliminatorias Sudamericanas enfrentando a Perú en el Estadio Nacional .</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="/Images/noticia4.jpeg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-white rounded">
+                                    <p class="h6">JAIRO QUINTEROS: “VAMOS POR LA VICTORIA, SOMOS AMBICIOSOS Y QUEREMOS CLASIFICAR</p>
+                                    <p class="m-0">Con la determinación de conseguir buenos resultados en los próximos dos partidos de La Verde, esta tarde la Selección Nacional tuvo su penúltimo entrenamiento en el Estadio Hernando Siles antes de emprender viaje rumbo a Lima dónde, el próximo jueves 11 de noviembre a partir de las 22:00 (HB), enfrentará al seleccionado peruano por la Fecha 13 de las Eliminatorias Sudamericanas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="/Images/noticia5.jpeg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-white rounded">
+                                    <p class="h6">LA VERDE VA TOMANDO FORMA”</p>
+                                    <p class="m-0">Hoy, en el Centro de Alto Rendimiento de Always Ready ubicado en la localidad de Huarina, La Verde realizó su tercer dí­a de trabajo en el que se incorporaron a las prácticas los  jugadores Rodrigo Ramallo, Marcelo Martins, José Sagredo, Diego Wayar, Ramiro Vaca, Enrique Flores, Juan Carlos Arce, Carlos Lampe y Jeyson Chura.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="/Images/noticia6.jpeg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-white rounded">
+                                    <p class="h6">ARRANCA LA PREPARACIÓN DE LA VERDE A ORILLAS DEL LAGO TITICACA</p>
+                                    <p class="m-0">En medio de bastante optimismo, el trabajo del seleccionado nacional empezó con seis jugadores que formarán parte de los próximos desafí­os de La Verde, en primera instancia, en Eliminatorias Sudamericanas y posteriormente para la Copa América que arrancará el 13 de junio en Argentina.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="/Images/noticia6.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-white rounded">
+                                    <p class="h6">LUIS HAQUIN: TENGAMOS FE DE QUE PRONTO SALDREMOS DE ESTA SITUACION</p>
+                                    <p class="m-0">Con mucha responsabilidad y consiente de que este es un momento en el que todos debemos estar unidos, Luis Haquí­n, jugador del Puebla de México, cuenta cómo pasa los dí­as durante la cuarentena en ese paí­s.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="/Images/noticia7.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-white rounded">
+                                    <p class="h6">ESPINOZA: DEBEMOS ESTAR PREPARADOS PARA QUE LA VUELTA SEA LIBRE DE RIESGOS Y COMPLICACIONES</p>
+                                    <p class="m-0">Hoy se dio la presentación del protocolo en borrador, con los puntos de las modalidades de entrenamientos individuales y colectivos, realización de test a los deportistas, desinfección de sitios comunes e higiene personal del atleta.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-    </header>
-
+    </div>
 </body>
 
 </html>
