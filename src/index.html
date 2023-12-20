@@ -27,11 +27,11 @@
             </div>
             <!---Boton Partidos---->
             <div class="container-fluid bg-dark mb-30">
-                <div class="row px-xl-5">
+                <div class="row px-xl-5 ">
                     <div class="col-lg-3 d-none d-lg-block">
                         <a class="btn d-flex align-items-center justify-content-between w-100 h-100" style="background-color:#55eb76 ;"
-                            href="#navbar-vertical" style="height: 65px; padding: 0 30px;">
-                            <h6 class="text-dark m-0">Partidos</h6>
+                            href="/src/ligaProfesional/#noticias" style="height: 65px; padding: 0 30px;">
+                            <h6 class="text-dark m-0">Noticias</h6>
                             <i class="fa fa-angle-down text-dark"></i>
                         </a>
                     </div>
@@ -45,7 +45,19 @@
                             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                 <div class="navbar-nav mr-auto py-0">
                                     <a href="/src/" class="nav-item nav-link active">Inicio</a>
-                                    <a href="/src/ligaProfesional/" class="nav-item nav-link text-white">liga Profesional</a>
+                                    <div class="nav-item dropdown">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Liga Profesional
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="/src/ligaProfesional/clubes/">Clubes de Liga</a></li>
+                                                <li><a class="dropdown-item" href="/src/ligaProfesional/VS/">Todos Contra Todos</a></li>
+                                                <li><a class="dropdown-item" href="/src/ligaProfesional/CopaTigo/">Copa Tigo Series</a></li>
+                                            </ul>
+                                        </li>
+                                    </div>
                                     <div class="nav-item dropdown">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle text-white" href="#" role="button"
